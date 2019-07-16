@@ -42,6 +42,16 @@
 	padding: 0px 260px;
 }
 
+.openres-images {
+	margin-left: 28em;
+}
+
+.openres2 {
+	margin-top: 50px;
+	height: 100%;
+	width: 100%;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3007,7 +3017,7 @@ input, select, textarea {
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
-		height: 100vh;
+		height: 85vh;
 		overflow: hidden;
 		position: relative;
 	}
@@ -3091,16 +3101,6 @@ input, select, textarea {
 		.spotlight:nth-last-of-type(20) {
 			z-index: 20;
 		}
-
-		/* .spotlight:before {
-			background-image: url("images/overlay.png");
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			top: 0;
-			width: 100%;
-		} */
 
 		.spotlight .image.main {
 			display: none;
