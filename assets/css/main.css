@@ -43,13 +43,22 @@
 }
 
 .openres-images {
-	margin-left: 28em;
+	margin-left: 29em;
 }
 
-.openres2 {
-	margin-top: 50px;
-	height: 100%;
-	width: 100%;
+.openres-image-1 {
+	margin-top: 35px;
+	margin-right: auto;
+	width: 98%;
+	max-width: 1000px;
+}
+
+.message-header {
+	font-size: 35px;
+}
+
+form input {
+	margin-bottom: 10px;
 }
 
 html, body, div, span, applet, object,
@@ -143,7 +152,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(255, 255, 255, 0.85);
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
@@ -3634,6 +3643,11 @@ input, select, textarea {
 				font-size: 13pt;
 			}
 
+		/* Screenshots */
+			.openres-image-1 {
+				max-width: 850px;
+			}
+
 	}
 
 /* Large */
@@ -3659,6 +3673,11 @@ input, select, textarea {
 			.spotlight.left .content, .spotlight.right .content {
 				padding: 4.5em 2.5em;
 				width: 25em;
+			}
+
+		/* Screenshots */
+			.openres-images {
+				margin-left: 26em;
 			}
 
 		/* Wrapper */
@@ -3741,6 +3760,11 @@ input, select, textarea {
 				.spotlight .goto-next {
 					display: none;
 				}
+
+		/* Screenshots */
+			.openres-images {
+				display: none;
+			}
 
 		/* Wrapper */
 
