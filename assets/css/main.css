@@ -3657,7 +3657,7 @@ input, select, textarea {
 			}
 
 			.tetris-image {
-				max-width: 650px;
+				max-width: 850px;
 			}
 
 	}
@@ -3724,6 +3724,7 @@ input, select, textarea {
 			}
 
 			.tetris-image {
+				max-width: 650px;
 				margin-left: 1.5em;
 			}
 
